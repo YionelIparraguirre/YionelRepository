@@ -7,6 +7,6 @@ jobs:
     runs-on: ubunto-latest
 
     steps:
-    -uses: action/checkout@v4
-    -name: Saludar
-    run: echo "Hola, GitHub Actions!"
+    - uses: action/checkout@v4
+    - name: Saludar
+      run: echo "Hola, GitHub Actions!"
